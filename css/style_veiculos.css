@@ -19,7 +19,7 @@ h3{
     color: #333;
 }
 
-#div-form-pessoa, #div-lista-veiculos{
+#div-form-veiculo, #div-lista-veiculos{
     width: 100%;
     padding: 5px;
     margin: 20px 0px;
@@ -27,7 +27,7 @@ h3{
     color: #444;
 }
 
-#form-pessoa{
+#form-veiculo{
     padding: 5px;
     border-radius: 15px;
     font-size: 1.2em;
@@ -61,7 +61,9 @@ button{
     font-weight: bold;
 }
 
-#div-lista-veiculos{
+#div-lista-veiculo{
     width: 100%;
+    min-height: 450px;
     color: #000000;
 }
+

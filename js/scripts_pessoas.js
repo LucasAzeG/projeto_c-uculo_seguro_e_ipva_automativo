@@ -2,11 +2,13 @@
 import { calcDesconto } from "./scripts_calculos.js"
 
 //PEGANDO ELEMENTOS DO DOM
-const formPessoa = document.querySelector('#form-pessoa')
+const formPessoa = document.querySelector('#div-form-pessoa')
 const divLista = document.querySelector('#div-lista-pessoas')
 
 //CRIANDO ARRAY pessoas
 const pessoas = []
+
+console.log(formVeiculo);
 
 //CAPTURAR O EVENTO submit DO FORMULÁRIO
 formPessoa.addEventListener('submit', (evt) => {
@@ -18,9 +20,9 @@ formPessoa.addEventListener('submit', (evt) => {
 
     //CRIAR UM OBJETO LITERAL
     const pessoa = {
-        nome: dadosFormPessoa.get('nome'),
-        idade: dadosFormPessoa.get('idade'),
-        renda: dadosFormPessoa.get('renda')
+        nome: dadosFormVeiculo.get('nome'),
+        idade: dadosFormVeiculo.get('idade'),
+        renda: dadosFormVeiculo.get('renda')
     }
 
     //CHAMANDO A FUNÇÃO addPessoa e PASSANDO O OBJETO LITERAL pessoa
